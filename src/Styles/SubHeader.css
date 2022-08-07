@@ -1,0 +1,32 @@
+.Sub_Header{
+    /* background: gray; */
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+    margin-top: 6.1rem;
+    height: 3.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cloths{
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.prime-vid{
+    margin-left: auto;
+    margin-right: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+   
+}
+.prime1{
+    border-right: 2px solid white;    
+    padding: .6rem;
+}
+.prime{
+    padding: .5rem;
+}

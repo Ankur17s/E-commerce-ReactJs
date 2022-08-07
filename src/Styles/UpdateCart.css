@@ -1,0 +1,111 @@
+.cart-container{
+    /* background-color: lightgray; */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);; */
+    width: 60%;
+    height: 250px;
+    margin-left: 120px;
+    /* margin-top: ; */
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid lightgray;
+    /* overflow: hidden; */
+}
+.cart-list{
+    margin-left: 10rem;
+    font-size: 3rem;
+    font-weight: 450;
+    
+}
+.item-cont{
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 500px;
+}
+.cart-ite{
+    margin-left: 11rem;
+    font-weight: 450;
+    font-size: 2rem;
+    /* background-color: skyblue; */
+}
+.img-cont{
+    height: 100%;
+    width: 33%;
+    /* background-color: yellow; */
+}
+.product-details{
+    /* background-color: yellow; */
+    height: 30%;
+    width: 10%;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.quantity-cont{
+    /* background-color: yellow; */
+    width: 15%;
+    height: 30%;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.quant{
+    margin-bottom: 10px;
+    font-weight: 500;
+    /* color: red; */
+}
+.btn-ele{
+    display: flex;
+}
+.minus{
+    background-color: tomato;
+    width: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    /* margin-left: 50px; */
+}
+.plus{
+    background-color: lightgreen;
+    width: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+.total{
+    /* background-color: yellow; */
+    height: 20%;
+    width: 10%;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.delete{
+    /* margin-top: 220px; */
+    /* width: 50%; */
+    position: absolute;
+    margin-bottom: 50px;
+}
+.delete button{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    margin-top: 170px;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
